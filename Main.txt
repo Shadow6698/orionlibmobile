@@ -1,0 +1,13 @@
+-- Load OrionLib
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Snxdfer/back-ups-for-libs/main/Orion.lua'))()
+
+-- Create main window
+local Window = OrionLib:MakeWindow({
+    Name = "Cartola Hub v3",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Config"
+})
+
+-- Init UI
+OrionLib:Init()
